@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data/results (keep folder structure, not contents)
+data/raw/*.csv
+data/raw/*.tsv
+data/clean/*
+data/processed/*
+results/*
+notebooks/outputs/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
